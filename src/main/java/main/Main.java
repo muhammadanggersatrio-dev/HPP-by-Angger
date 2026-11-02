@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("hpp.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/view/hpp.fxml"));
         stage.setTitle("Penghitung HPP");
         stage.setScene(new Scene(root));
         stage.show();
